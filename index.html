@@ -7,11 +7,11 @@
     <title>SignupForm</title>
 </head>
 <body>
-    <div class="leftBackground"></div>
-    <div class="rightSidw">
+    <img src="./Assets/bg.jpg" alt="background image" class="leftBg">
+    <div class="rightSide">
         <p class="title">THIS IS NOT A REAL ONLINE SERVICE! Sign up right now to kickstart your career as a wizard!</p>
         <div class="formBg">
-            <form class = userInput action="wizardwizardhere.com/path">
+            <form class="userInput" id=userInput method="post" action="wizardwizardhere.com/path">
                 <div class="inputSection">
                     <label for="firstName">First Name</label>
                     <input type="text" id="firstName"> 
@@ -34,7 +34,7 @@
                 </div>
             </form>
         </div>
-        <button class="submit" type="submit">submit</button>
+        <button class="submitButton" form="userInput" type="submit" value="update">Create Account</button>
     </div>
 </body>
 </html>
