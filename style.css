@@ -68,9 +68,9 @@ body{
 
 .title{
   font-family: NorseBold;
-  padding: 32px;
+  padding: 2vh;
   font-weight: bold;
-  font-size: 64px;
+  font-size: 6vh;
 }
 
 .submitButton{
@@ -109,9 +109,9 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  padding: 32px;
-  padding-top: 128px;
-  padding-bottom: 128px;
+  padding: 8vh;
+  padding-top: 24vhpx;
+  padding-bottom: 24vh;
   box-shadow: 0px 0px 8px grey;
   margin-bottom: 32px;
 }
