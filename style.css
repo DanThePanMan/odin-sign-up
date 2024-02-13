@@ -61,6 +61,22 @@ body{
     opacity: 0;
 }
 
+.validpw{
+  color: red;
+  opacity: 0;
+}
+
+#invalidEmail{
+  color: red;
+  opacity: 0;
+}
+#invalidPhone{
+  color: red; 
+  opacity: 0;
+}
+
+
+
 .leftBg{
   height: 100vh;
   width: auto;
@@ -129,13 +145,25 @@ input:focus{
   border-color: darkgrey;
 }
 
-input:invalid{
-    border-color: red; 
-}
-
-input:invalid + .invalidText{
+input:invalid + #invalidText{
     color: red;
     opacity: 100 ;
+}
+
+#email:invalid + #invalidEmail{
+  color: red;
+  opacity: 100 ;
+}
+
+.phoneClass:invalid + #invalidPhone{
+  color: red;
+  opacity: 100 ;
+}
+
+
+.invalidpw{
+  color: red;
+  opacity: 100 ;
 }
 
 .userInput{
